@@ -1,0 +1,6 @@
+The Jenkins file is just for running everything in the right order in case anyone wants to run this via Jenkins
+The task2-bash.sh script is only for running the api server, it should run AFTER the python script
+All scripts can be runed manually on every supported environment. the right order is:
+1. Task1.sh
+2. Task2.py
+3.task2-bash.sh
